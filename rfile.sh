@@ -1,8 +1,8 @@
 #!/bin/bash
-cd /Volumes/EXT500/yiff #change this directory to wherever your wankbank is located
+cd /path/to/directory #change this directory to wherever your directory is located
 find . -type f | gshuf -n1 | while read filename; do
     open -a Preview "$filename"
     echo "$filename"
     cd ~/Desktop
-	cat /Volumes/EXT500/yiff/"$filename" | ./impbcopy -   #change this directory to wherever your wankbank is located
+	cat /path/to/directory/"$filename" | ./impbcopy -   #change this directory to wherever your directory is located
 done
