@@ -16,8 +16,6 @@ curl -f https://raw.githubusercontent.com/FoxRunTime/rfile/master/rfile.sh -o rf
 echo "this is what you're after"
 chmod +x rfile.sh
 echo "authorised for execution"
-./rfile.sh
-echo "if all has gone to plan, you'll now see a random file from the directory in rfile.sh and it'll be on your pasteboard too"
-echo "run ./rfile.sh in ~/Desktop/rfile to do it again"
+echo "open ~/Desktop/rfile. and replace "/path/to/directory with your own directory of images, save it, then run ./rfile.sh in ~/Desktop/rfile"
 
 echo "by foxruntime"
