@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /Volumes/EXT500/yiff #change this directory to wherever your wankbank is located
 find . -type f | gshuf -n1 | while read filename; do
     open -a Preview "$filename"
