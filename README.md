@@ -1,5 +1,5 @@
 # rfile
-Grabs a random file from a directory, opens it in Preview, copies it to clipboard. Mac only.
+Grabs a random file from a directory, opens it in Preview, copies it to clipboard. Mac only. Some assembly required.
 ---
 
 # whoisthis
@@ -19,4 +19,4 @@ https://github.com/FoxRunTime/rfile
 you don't want to know.
 
 # howisthis
-uses `gshuf` to select the file and `impbcopy` to copy it to the clipboard (which is why that gets downloaded and built) and uses `open` (part of macOS) to open the file in Preview.app.
+uses `gshuf` to select the file and `impbcopy` to copy it to the clipboard (which is why that gets downloaded and built) and uses `open` (part of macOS) to open the file in Preview.app. **you __must__ edit rfile.sh to include __YOUR OWN DIRECTORY TO USE.__**
